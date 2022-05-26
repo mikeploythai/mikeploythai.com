@@ -1,19 +1,45 @@
 :root {
-  --navy: #022650;
-  --baby: #B4D8FD;
+  --primary: #022650;
+  --secondary: #B4D8FD;
+
+  --primary-rgb: 2, 38, 80;
 }
 
 html,
 body {
   font-family: 'DM Sans';
-  background-color: white;
-  background-color: var(--navy);
-  color: var(--baby);
-  min-height: 100vh;
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-size: clamp(1rem, 0.9846rem + 0.0877vw, 1.125rem);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: clamp(2rem, 1.9232rem + 0.4386vw, 2.625rem);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: clamp(1.5rem, 1.4386rem + 0.3509vw, 2rem);
+}
+
+i {
+  font-weight: 400;
+  font-size: clamp(0.75rem, 0.7346rem + 0.0877vw, 0.875rem);
+}
+
+li {
+  list-style: none;
 }
 
 a {
+  color: var(--secondary);
   text-decoration: none;
+  transition: .25s ease-in-out;
+}
+
+ion-icon {
+  font-size: clamp(1.5rem, 1.4386rem + 0.3509vw, 2rem);
 }
 
 * {
