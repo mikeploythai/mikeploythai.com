@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class FontOptimization extends Document {
@@ -13,8 +14,8 @@ class FontOptimization extends Document {
         <body>
           <Main />
           <NextScript />
-          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+          <script async type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script async nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         </body>
       </Html>
     )

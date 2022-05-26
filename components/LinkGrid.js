@@ -6,6 +6,7 @@ export default function LinkGrid() {
     <div className={styles.list}>
       {links.map(({icon, link}) =>(
         <a
+          key={icon}
           className={styles.icons}
           href={link}
           target="_blank"
