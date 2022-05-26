@@ -10,7 +10,7 @@ export default function Header() {
 
         <a
           className={styles.btn}
-          href="#"
+          href="resume.pdf"
           target="_blank"
           rel="noopenner noreferrer"
         >
