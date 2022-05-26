@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  gap: 16px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons:hover {
+  color: whitesmoke;
+}
