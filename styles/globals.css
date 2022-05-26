@@ -1,16 +1,22 @@
+:root {
+  --navy: #022650;
+  --baby: #B4D8FD;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'DM Sans';
+  background-color: white;
+  background-color: var(--navy);
+  color: var(--baby);
+  min-height: 100vh;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
