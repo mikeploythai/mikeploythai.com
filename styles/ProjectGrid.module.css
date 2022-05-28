@@ -1,0 +1,53 @@
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  width: 100%;
+  padding: 48px;
+  gap: 32px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.gridItems {
+  display: inline-grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 150px;
+  border-radius: 8px;
+  color: var(--primary);
+  background-color: var(--secondary);
+}
+
+.item:hover {
+  transform: scale(1.025);
+  background-color: whitesmoke;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.link:hover {
+  color: whitesmoke;
+}
