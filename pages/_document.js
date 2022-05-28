@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-class FontOptimization extends Document {
+class Doc extends Document {
   render() {
     return (
       <Html>
@@ -14,11 +14,11 @@ class FontOptimization extends Document {
           <Main />
           <NextScript />
           <script async type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-          <script async nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+          <script async noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         </body>
       </Html>
     )
   }
 }
 
-export default FontOptimization
+export default Doc
