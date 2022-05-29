@@ -9,13 +9,14 @@ export default function ProjectGrid() {
 
         <section className={styles.content}>
           <span className={styles.gridItems}>
-            {projects.map(({name, link}) =>(
+            {projects.map(({name, link, img, key}) =>(
               <a
-                key={link}
+                key={key}
                 className={styles.item}
                 href={link}
                 target="_blank"
                 rel="noopenner noreferrer"
+                style={{backgroundImage: `url('../img/${img}')`}}
               >
                 {name}
               </a>

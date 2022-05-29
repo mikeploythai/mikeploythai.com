@@ -34,12 +34,12 @@
   height: 150px;
   border-radius: 8px;
   color: var(--primary);
+  background-size: cover;
   background-color: var(--secondary);
 }
 
 .item:hover {
   transform: scale(1.025);
-  background-color: whitesmoke;
 }
 
 .link {

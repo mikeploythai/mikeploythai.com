@@ -1,14 +1,16 @@
 export const projects = [
   {
-    name: "@shelly.smm",
-    link: "https://github.com/mikeploythai/liushelly.com",
+    link: "https://github.com/ethanthatonekid/acmcsuf.com",
+    img: "acm.webp",
+    key: 1
   },
   {
-    name: "ACM Chapter at CSUF",
-    link: "https://etok.codes/acmcsuf.com",
-  },
-  {
-    name: "TuffyHacks 2022",
     link: "https://tuffyhacks.com",
+    img: "th.webp",
+    key: 2
+  },
+  {
+    name: "More coming soon 👀",
+    key: 3
   },
 ]
