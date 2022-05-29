@@ -5,7 +5,7 @@ This is version 2.1 of my personal website, completely rewritten using [Next.js]
 - [x] Header
 - [x] Hero
 - [x] YouTube forwarding link
-- [ ] Featured projects
+- [x] Featured projects
 - [ ] Experience
 - [ ] About
 - [ ] Contact
