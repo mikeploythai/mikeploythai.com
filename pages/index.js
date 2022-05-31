@@ -1,6 +1,7 @@
 import Header from '../components/Header'
 import Hero from '../components/Hero'
-import ProjectGrid from '../components/ProjectGrid'
+import Projects from '../components/Projects'
+import Experience from '../components/Experience'
 import Head from 'next/head'
 
 export default function Main() {
@@ -12,7 +13,8 @@ export default function Main() {
 
       <Header />
       <Hero />
-      <ProjectGrid />
+      <Projects />
+      <Experience />
     </div>
   )
 }
