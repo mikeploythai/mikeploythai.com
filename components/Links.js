@@ -1,5 +1,5 @@
-import {links} from './lib/links'
-import styles from '../styles/LinkGrid.module.css'
+import {links} from './lib/links-data'
+import styles from '../styles/Links.module.css'
 
 export default function LinkGrid() {
   return (

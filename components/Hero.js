@@ -1,4 +1,4 @@
-import LinkGrid from './LinkGrid'
+import Links from './Links'
 import styles from '../styles/Hero.module.css'
 
 export default function Hero() {
@@ -10,7 +10,7 @@ export default function Hero() {
           <p>I&apos;m a frontend developer and UI/UX designer based in Los Angeles.</p>
         </section>
 
-        <LinkGrid />
+        <Links />
       </div>
     </div>
   )
