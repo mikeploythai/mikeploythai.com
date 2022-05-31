@@ -45,3 +45,7 @@
   padding: 0 24px 16px;
   gap: 8px;
 }
+
+@media screen and (max-width: 280px) {
+  .container { padding: 24px; }
+}
