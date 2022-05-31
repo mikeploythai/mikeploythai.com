@@ -6,7 +6,7 @@ This is version 2.1 of my personal website, completely rewritten using [Next.js]
 - [x] Hero
 - [x] YouTube forwarding link
 - [x] Featured projects
-- [ ] Experience
+- [x] Experience
 - [ ] About
 - [ ] Contact
 
