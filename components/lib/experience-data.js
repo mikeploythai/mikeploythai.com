@@ -21,8 +21,8 @@ export const experience = [
     company: "ACM Chapter at CSUF",
     role: "Design Officer",
     tenure: "Dec 2020 - May 2021",
-    b1: "Redesigned the chapter&apos;s branding to reflect modern design trends using Adobe Photoshop and Figma",
-    b2: "Collaborated with the development team to create the chapter&apos;s new website using Sapper (Svelte) and TypeScript",
+    b1: "Redesigned the chapter's branding to reflect modern design trends using Adobe Photoshop and Figma",
+    b2: "Collaborated with the development team to create the chapter's new website using Sapper (Svelte) and TypeScript",
     b3: "Co-hosted workshops that taught UI/UX design to an audience of 10-15 students",
     key: 3
   },
