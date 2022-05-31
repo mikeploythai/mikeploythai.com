@@ -28,7 +28,7 @@ i {
   font-size: clamp(0.75rem, 0.7346rem + 0.0877vw, 0.875rem);
 }
 
-li {
+ul {
   list-style: none;
 }
 
