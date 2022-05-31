@@ -1,5 +1,5 @@
-import {projects} from './lib/projects'
-import styles from '../styles/ProjectGrid.module.css'
+import {projects} from './lib/projects-data'
+import styles from '../styles/Projects.module.css'
 
 export default function ProjectGrid() {
   return (
