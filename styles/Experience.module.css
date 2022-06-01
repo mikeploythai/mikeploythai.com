@@ -46,6 +46,6 @@
   gap: 8px;
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 320px) {
   .container { padding: 24px; }
 }
