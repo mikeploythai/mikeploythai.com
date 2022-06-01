@@ -10,7 +10,7 @@ This is version 2.1 of my personal website, completely rewritten using [Next.js]
 - [x] Featured projects
 - [x] Experience
 - [x] About
-- [ ] Contact
+- [x] Contact
 
 ---
 
