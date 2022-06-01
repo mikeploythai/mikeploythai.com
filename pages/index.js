@@ -1,8 +1,10 @@
-import Header from '../components/Header'
-import Hero from '../components/Hero'
-import Projects from '../components/Projects'
-import Experience from '../components/Experience'
-import Head from 'next/head'
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Projects from "../components/Projects";
+import Experience from "../components/Experience";
+import About from "../components/About";
+import Portrait from "../components/Portrait";
+import Head from "next/head";
 
 export default function Main() {
   return (
@@ -15,6 +17,8 @@ export default function Main() {
       <Hero />
       <Projects />
       <Experience />
+      <About />
+      <Portrait />
     </div>
-  )
+  );
 }

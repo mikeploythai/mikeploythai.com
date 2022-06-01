@@ -1,5 +1,5 @@
-import Links from './Links'
-import styles from '../styles/Hero.module.css'
+import Links from "./Links";
+import styles from "../styles/Hero.module.css";
 
 export default function Hero() {
   return (
@@ -7,11 +7,14 @@ export default function Hero() {
       <div className={styles.container}>
         <section className={styles.content}>
           <h1>Hi, I&apos;m Mike ✌🏼</h1>
-          <p>I&apos;m a frontend developer and UI/UX designer based in Los Angeles.</p>
+          <p>
+            I&apos;m a frontend developer and UI/UX designer based in Los
+            Angeles.
+          </p>
         </section>
 
         <Links />
       </div>
     </div>
-  )
+  );
 }

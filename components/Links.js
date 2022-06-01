@@ -1,10 +1,10 @@
-import {links} from './lib/links-data'
-import styles from '../styles/Links.module.css'
+import { links } from "./lib/links-data";
+import styles from "../styles/Links.module.css";
 
 export default function LinkGrid() {
   return (
     <div className={styles.list}>
-      {links.map(({icon, link, key}) =>(
+      {links.map(({ icon, link, key }) => (
         <a
           key={key}
           className={styles.icons}
@@ -16,5 +16,5 @@ export default function LinkGrid() {
         </a>
       ))}
     </div>
-  )
+  );
 }
