@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  width: 100%;
+  padding: 16px 48px;
+  border-top: 1px solid var(--secondary);
+  gap: 2px;
+}
+
+.italics {
+  font-size: 8px;
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 16px 24px;
+  }
+}
