@@ -4,6 +4,8 @@ import Projects from "../components/Projects";
 import Experience from "../components/Experience";
 import About from "../components/About";
 import Portrait from "../components/Portrait";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 import Head from "next/head";
 
 export default function Main() {
@@ -19,6 +21,8 @@ export default function Main() {
       <Experience />
       <About />
       <Portrait />
+      <Contact />
+      <Footer />
     </div>
   );
 }
