@@ -30,9 +30,8 @@
     ),
     url("../public/img/mp.webp");
   background-size: cover;
-  background-position: center;
+  background-position: 51% center;
   width: 100%;
-  height: auto;
   border-radius: 8px;
 }
 
